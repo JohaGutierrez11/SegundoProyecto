@@ -1,0 +1,9 @@
+## Hallazgo
+* No existe validación de datos duplicados
+* No existe validación si el campo ID (principal) se lo envía vacío
+* Si se utiliza la colección "Update an existing pet" y se envía datos que no existen en la base, esta función de modificación, cumple la función de crear. 
+* Si se utiliza la colección "Updates a pet in the store with form data"  y se envía los campos name y status vacío, Postman manda el mensaje "status 200 OK", sin embargo, cuando se observa los datos de esta actualización los cambios aceptados no se ven reflejados
+* Cuando se crea o se modifica el campo status, y se pone cualquier valor, no existe una validación que solo acepte los tres estados establecidos en la documentación 
+
+## Conclusión
+Despues de realizar las pruebas, creo que existen peticiones que se debería mejorar y validar, para que no exista sobre escritura,duplicar información o enviar datos incorrectos, además, tener claro cuál es la funcionalidad de cada una de las colecciones. 

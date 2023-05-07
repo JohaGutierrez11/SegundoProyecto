@@ -1,0 +1,23 @@
+{
+    "id": 9999998,
+    "category": {
+        "id": 22059980,
+        "name": "Dog"
+    },
+    "name": "Draco",
+    "photoUrls": [
+        "Bruno Mezclado",
+        "https://fotografias.lasexta.com/clipping/cmsimages01/2022/08/09/3FFA8546-05CE-4608-9B69-6602D02A4C58/cachorro-pomsky_98.jpg?crop=1183,666,x0,y103&width=1900&height=1069&optimize=high&format=webply"
+    ],
+    "tags": [
+        {
+            "id": -16259777,
+            "name": "ojos azules"
+        },
+        {
+            "id": 16047041,
+            "name": "Perro Husky"
+        }
+    ],
+    "status": "sold"
+}
